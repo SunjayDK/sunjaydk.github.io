@@ -1,0 +1,39 @@
+/*Palette:
+	Visited links: #05070A;
+	Titles and important text: #2B030B;
+	General background: #CB9CF2;
+	Highlight background: #9E7B9E;
+	More highlights: #616283;
+
+*/
+
+* {border: 1px solid #f00;}
+
+/* Base */
+html, body, form { 
+	margin: 0 auto;
+	background-color: #CB9CF2;
+	font-family: 'Andika', sans-serif;
+}
+
+a { color: #2B030B; }
+a:hover { color: #05070A; }
+h1, h2, h3 { font-family: 'Federo', sans-serif; color: #2B030B;  }
+
+img {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* footer */
+
+footer ul {
+	text-align: center;
+	list-style: none;
+}
+
+footer li {
+	display: inline-block;
+	font-size: 3em;
+	padding: 0 10%;
+}
