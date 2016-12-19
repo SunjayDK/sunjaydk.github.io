@@ -26,10 +26,18 @@ ul.horizontal-list li {
 	padding: 0 10%;
 }
 
+main {
+	padding-bottom: 5em;
+}
+
 footer {
 	position: fixed;
 	width: 111%;
 	bottom: 0px;
 	left: -10%;
 	background-color: #9E7B9E;
+}
+
+.inline {
+	display: inline;
 }
