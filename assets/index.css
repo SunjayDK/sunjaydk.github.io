@@ -40,6 +40,10 @@ ul.horizontal-list li {
 
 /*Accordioning*/
 
+.inline {
+	display: inline;
+}
+
 h4:hover {
 	color: #616283;
 }
