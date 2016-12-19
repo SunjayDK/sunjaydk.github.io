@@ -12,27 +12,29 @@ html, body, form {
 	margin: 0 auto;
 	background-color: #CB9CF2;
 	font-family: 'Andika', sans-serif;
+	padding-left: 10%;
 }
 
 a { color: #2B030B; }
 a:hover { color: #05070A; }
 h1, h2, h3 { font-family: 'Federo', sans-serif; color: #2B030B;  }
 
+
 img {
 	margin: 0 auto;
 	max-width: 100%;
 }
 
-/* footer */
+/* lists of icons */
 
-footer ul {
+ul.horizontal-list {
 	text-align: center;
 	list-style: none;
 }
 
-footer li {
+ul.horizontal-list li {
 	display: inline-block;
-	font-size: 3em;
+	font-size: 2em;
 	padding: 0 10%;
 }
 
@@ -42,6 +44,3 @@ h4:hover {
 	color: #616283;
 }
 
-.hidden {
-	display: none;
-}
