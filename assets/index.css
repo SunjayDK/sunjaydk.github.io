@@ -7,8 +7,6 @@
 
 */
 
-* {border: 1px solid #f00;}
-
 /* Base */
 html, body, form { 
 	margin: 0 auto;
@@ -36,4 +34,14 @@ footer li {
 	display: inline-block;
 	font-size: 3em;
 	padding: 0 10%;
+}
+
+/*Accordioning*/
+
+h4:hover {
+	color: #616283;
+}
+
+.hidden {
+	display: none;
 }
