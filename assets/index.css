@@ -1,0 +1,43 @@
+/*Palette:
+	Visited links: #05070A;
+	Titles and important text: #2B030B;
+	General background: #CB9CF2;
+	Highlight background: #9E7B9E;
+	More highlights: #616283;
+
+*/
+
+
+img {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* footer */
+
+ul.horizontal-list {
+	text-align: center;
+	list-style: none;
+}
+
+ul.horizontal-list li {
+	display: inline-block;
+	font-size: 2em;
+	padding: 0 10%;
+}
+
+main {
+	padding-bottom: 5em;
+}
+
+footer {
+	position: fixed;
+	width: 111%;
+	bottom: 0px;
+	left: -10%;
+	background-color: #9E7B9E;
+}
+
+.inline {
+	display: inline;
+}

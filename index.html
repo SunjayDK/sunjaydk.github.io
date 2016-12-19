@@ -5,7 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="assets/index.css">
 	<!-- For font-awesome icons -->
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css?x25758" rel="stylesheet">
-	<title>Sunjay Kumar</title>
+	<link href="https://fonts.googleapis.com/css?family=Federo|Andika" rel="stylesheet">
+	<!-- For bootstrap-->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.min.css">
+	<title>Sunjay - </title>
 </head>
 
 <body>
@@ -13,56 +20,78 @@
 		
 		<h1>Sunjay Kumar</h1>
 		<main>
-			<h2>Projects</h2>
-			<div id="projects">
-				<ul>
-					<li>
-						<div class="title">
-							<h3><a href="http://pairbooked.herokuapp.com">pair<em>Booked</em></a>  <a href="https://github.com/SunjayDK/pairBooked"><i class="fa fa-github-square"></i></a></h3>
-						</div>
-						<div class="preview">
-							<img src="assets/img/pairbooked.png" alt="Picture showing pairBooked app">
-						</div>
-						<details>
-							<summary>Description</summary>
-							<p>The final project at Dev Bootcamp. It schedules pair-programming sessions for students in the off-site portion of the program. We created it over the course of a week in a team of three.</p>
-							<p>My coworkers:</p>
-								<ul>
-									<li><a href="http://www.github.com/jwmendio"><i class="fa fa-github"></i></a></li>
-									<li><a href="http://www.github.com/paulliu87"><i class="fa fa-github"></i></a></li>
-								</ul>
-						</details>
-					</li>
-					<li>
-						<div class="title">
-							<h3><a href="http://www.syouthclub.org">Somali Youth and Family Club Website</a>  <a href="https://github.com/somali-youth-family-club/syfc-website-2016"><i class="fa fa-github-square"></i></a></h3>
-						</div>
-						<div class="preview">
-							<img src="assets/img/sfyouthclub.png" alt="Picture showing Somali Youth and Family Club app">
-						</div>
-						<details>
-							<summary>Description</summary>
-							<p>A project for Seattle GiveCamp. We worked with the Somali Youth and Family Club to update their website and make it easier to access services. We had a team of five, with two web developers including me.</p>
-							<p>My coworkers:</p>
-								<ul>
-									<li><a href="http://www.github.com/smhigley"><i class="fa fa-github"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/salim-addi-66101913"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/leo-salemann-303293a"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/maria-mailey-2315661"><i class="fa fa-linkedin"></i></a></li>
-								</ul>
-						</details>
-					</li>
-				</ul>
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" ><a href="#About" aria-controls="About" role="tab" data-toggle="tab">About Me</a></li>
+				<li role="presentation"><a href="#Projects" aria-controls="Projects" class="active" role="tab" data-toggle="tab">Projects</a>
+			</ul>
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane" id="About">
+					<p>I am the sort of person who is always building something.</p>
+
+					<p>In my time at Northwestern, that meant building student organizations. Whatever my role, that meant working with my fellow students to organize events of every type, from slam poetry workshops to kite flying days.</p>
+
+					<p>When I was finishing up my degree and preparing to transition to full time employment, I looked back over my experiences those four years and distilled two basic principles for taking my next step. Those two principles have become something of my guiding philosophy whenever I make big decisions: I want to have a positive impact on the world, and I want to grow.</p>
+
+					<p>My first year out, tutoring math for high school students on Chicago's southwest side, I did both. I saw a huge progress in my students' math skills, and I saw my own skills as a teacher and as a team member grow. I practiced taking and giving feedback and building relationships across cultural and political differences. I also used my spare time to grow myself in other ways, canvassing for political campaigns and working on the board of Stone Soup Co-op, where I live. At the end of that year, though, I knew that continuing to grow and have the biggest impact I could meant switching careers. So I decided to retool, and I headed to Dev Bootcamp to learn how to be a web developer.</p>
+
+					<p>Those two principles still guide me today. For having a positive impact on the world, my goal is to use my skills as a web developer to build tools to amplify the voices of communities to advocate for themselves, and to build tools that improve transparency and accountability for public interest organizations. For continuing my growth, my goal is to find a team that takes intentional feedback and improvement as a priority, both for every person on the team and for the organization as a whole.</p>
+
+					<p>If you are looking for a web developer for a public interest project, please contact me by inmail or by email (sunjaydk@gmail.com). </p>
+				</div>
+				
+				<div role="tabpanel" class="tab-pane active" id="Projects">
+					<ul>
+						<li>
+							<div class="title">
+								<h3><a href="http://pairbooked.herokuapp.com">pair<em>Booked</em></a>  <a href="https://github.com/SunjayDK/pairBooked"><i class="fa fa-github-square"></i></a></h3>
+							</div>
+							<details>
+								<summary><h4 class="inline">Description</h4></summary>
+								<p>The final project at Dev Bootcamp. It schedules pair-programming sessions for students in the off-site portion of the program. We created it over the course of a week in a team of three.</p>
+								<table class="table">
+									<tr><td>My coworkers:</td>
+										<td><a href="http://www.github.com/jwmendio"><i class="fa fa-github"></i></a></td>
+										<td><a href="http://www.github.com/paulliu87"><i class="fa fa-github"></i></a></td>
+									</tr>
+								</table>
+								<div class="preview">
+									<img src="assets/img/pairbooked.png" alt="Picture showing pairBooked app">
+								</div>
+							</details>
+						</li>
+						<li>
+							<div class="title">
+								<h3><a href="http://www.syouthclub.org">Somali Youth and Family Club Website</a>  <a href="https://github.com/somali-youth-family-club/syfc-website-2016"><i class="fa fa-github-square"></i></a></h3>
+							</div>
+							<details>
+								<summary><h4 class="inline">Description</h4></summary>
+								<p>A project for Seattle GiveCamp. We worked with the Somali Youth and Family Club to update their website and make it easier to access services. We had a team of five, with two web developers including me.</p>
+								<table class="table">
+									<tr><td>My coworkers:</td>
+										<td><a href="http://www.github.com/smhigley"><i class="fa fa-github"></i></a></td>
+										<td><a href="https://www.linkedin.com/in/salim-addi-66101913"><i class="fa fa-linkedin"></i></a></td>
+										<td><a href="https://www.linkedin.com/in/leo-salemann-303293a"><i class="fa fa-linkedin"></i></a></td>
+										<td><a href="https://www.linkedin.com/in/maria-mailey-2315661"><i class="fa fa-linkedin"></i></a></td>
+									</tr>
+								</table>
+								<div class="preview">
+									<img src="assets/img/sfyouthclub.png" alt="Picture showing Somali Youth and Family Club app">
+								</div>
+							</details>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</main>
 
-		<footer><ul id="contact-methods">
+		<footer><ul class="horizontal-list">
 			<li><a href="http://www.linkedin.com/in/sunjaydk"><i class="fa fa-linkedin"></i></a></li>
 			<li><a href="http://www.github.com/sunjaydk"><i class="fa fa-github"></i></a></li>
 			<li><a href="mailto:sunjaydk@gmail.com"><i class="fa fa-envelope"></i></a></li>
 		</ul></footer>
 	</div>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/index.js"></script>
 </html>
