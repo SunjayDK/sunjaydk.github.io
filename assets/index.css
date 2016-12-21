@@ -41,3 +41,18 @@ footer {
 .inline {
 	display: inline;
 }
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.my-face {
+	display: block;
+	height: 10em;
+	width: 10em;
+	margin: .5em;
+}
