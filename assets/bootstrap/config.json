@@ -160,7 +160,7 @@
     "@navbar-default-brand-hover-color": "darken(@navbar-default-brand-color, 10%)",
     "@navbar-default-brand-hover-bg": "transparent",
     "@navbar-default-toggle-hover-bg": "lighten(@body-bg, 10%)",
-    "@navbar-default-toggle-icon-bar-bg": "darken(@body-bg, 20%)",
+    "@navbar-default-toggle-icon-bar-bg": "darken(@body-bg, 5%)",
     "@navbar-default-toggle-border-color": "lighten(@body-bg, 10%)",
     "@navbar-inverse-color": "lighten(@gray-light, 15%)",
     "@navbar-inverse-bg": "#222",
@@ -425,5 +425,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=e2fd4132aa1aeba39e4a5d8eca9a6d4d"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=dbd047aab6e0f15e66c6581d3b09fd7b"
 }
